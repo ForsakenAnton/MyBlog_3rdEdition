@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWebApp", "BlazorWebApp\BlazorWebApp\BlazorWebApp.csproj", "{DFAD5717-7971-45BD-B74D-DA122C9BD73C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorWebApp", "BlazorWebApp\BlazorWebApp\BlazorWebApp.csproj", "{DFAD5717-7971-45BD-B74D-DA122C9BD73C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWebApp.Client", "BlazorWebApp\BlazorWebApp.Client\BlazorWebApp.Client.csproj", "{E3FE9ED5-184D-4B9C-B4AF-92FFC84E3DAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorWebApp.Client", "BlazorWebApp\BlazorWebApp.Client\BlazorWebApp.Client.csproj", "{E3FE9ED5-184D-4B9C-B4AF-92FFC84E3DAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{4364F1F6-48D7-4A25-8F2D-AC6FDB6F738C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.Models", "Data.Models\Data.Models.csproj", "{DAABE9EE-1689-40E2-BF1D-ABE97FA66C44}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{E3FE9ED5-184D-4B9C-B4AF-92FFC84E3DAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3FE9ED5-184D-4B9C-B4AF-92FFC84E3DAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3FE9ED5-184D-4B9C-B4AF-92FFC84E3DAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4364F1F6-48D7-4A25-8F2D-AC6FDB6F738C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4364F1F6-48D7-4A25-8F2D-AC6FDB6F738C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4364F1F6-48D7-4A25-8F2D-AC6FDB6F738C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4364F1F6-48D7-4A25-8F2D-AC6FDB6F738C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAABE9EE-1689-40E2-BF1D-ABE97FA66C44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAABE9EE-1689-40E2-BF1D-ABE97FA66C44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAABE9EE-1689-40E2-BF1D-ABE97FA66C44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAABE9EE-1689-40E2-BF1D-ABE97FA66C44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
