@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.Models", "Data.Models\Data.Models.csproj", "{DAABE9EE-1689-40E2-BF1D-ABE97FA66C44}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiBlazorHybridApp", "MauiBlazorHybridApp\MauiBlazorHybridApp.csproj", "{11BE1F59-6962-42BE-BC97-763A8395B1FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,12 @@ Global
 		{DAABE9EE-1689-40E2-BF1D-ABE97FA66C44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAABE9EE-1689-40E2-BF1D-ABE97FA66C44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAABE9EE-1689-40E2-BF1D-ABE97FA66C44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11BE1F59-6962-42BE-BC97-763A8395B1FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11BE1F59-6962-42BE-BC97-763A8395B1FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11BE1F59-6962-42BE-BC97-763A8395B1FA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{11BE1F59-6962-42BE-BC97-763A8395B1FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11BE1F59-6962-42BE-BC97-763A8395B1FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11BE1F59-6962-42BE-BC97-763A8395B1FA}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
